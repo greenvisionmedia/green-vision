@@ -1,6 +1,7 @@
 #Action to deploy directly to a domain
 name: Deploy
 on:
+    push:
     workflow_dispatch:
 jobs:
   deploy:
