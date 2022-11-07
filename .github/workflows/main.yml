@@ -28,9 +28,9 @@ jobs:
       if: true
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: greenvisionmedia.com  
-        username: gvm@greenvisionmedia.com
+        server: greenvision.media 
+        username: gvm@greenvision.media
         password: ${{secrets.FTP_PASSWORD}}
-        server-dir: greenvisionmedia.com/public_html/
+        server-dir: greenvision.media/public_html/
         protocol: ftps
 
