@@ -134,6 +134,9 @@ figcaption {
 
 .form_input.is-text-area {
     min-height: 8rem;
+    display: flex;
+    align-items: top;
+    text-overflow: wrap;
 }
 
 .container-large {
@@ -1288,9 +1291,10 @@ section a {
     flex-direction: column;
 }
 
-#input.button {
+input.button {
     appearance: none;
     border: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     align-self: center;
+    margin: auto 0 0 0;
 }
