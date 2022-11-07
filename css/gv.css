@@ -1268,7 +1268,6 @@ input.button {
 
     .header_content-subtitle {
         font-size: 1.25rem;
-        margin-bottom: 5rem;
     }
 
     .solution_icon-row {
@@ -1277,6 +1276,10 @@ input.button {
 
     .solution_icon-row {
         max-width: 75%;
+    }
+
+    .header_wrapper {
+        margin-bottom: 5rem;
     }
 }
 
