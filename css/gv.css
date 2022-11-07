@@ -1014,6 +1014,7 @@ header *::selection,
 
 section a {
     color: inherit;
+    font-weight: bold;
 }
 
 /* Headers */
