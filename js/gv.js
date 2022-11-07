@@ -107,9 +107,11 @@ document.addEventListener('DOMContentLoaded', () => {
         xhr.send(formData);
         xhr.onload = function (e) {
             if (xhr.status === 200) {
+                toggle(formBox);
                 toggle(success);
             } else {
                 var response = JSON.parse(xhr.response);
+                toggle(formBox);
                 toggle(failure);
             }
         };
