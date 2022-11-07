@@ -77,16 +77,6 @@ blockquote {
     line-height: 1.5;
 }
 
-figure {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-figcaption {
-    margin-top: 0.25rem;
-    text-align: center;
-}
-
 .padding-large {
     padding: 4rem;
 }
@@ -802,6 +792,11 @@ figcaption {
 
     h3 {
         font-size: 2rem;
+    }
+
+    blockquote {
+        font-size: 2.5rem;
+        line-height: 1.4;
     }
 
     .padding-large {
