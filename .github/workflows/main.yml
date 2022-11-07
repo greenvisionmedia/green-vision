@@ -1,5 +1,6 @@
 name: Deploy
 on:
+    push:
     workflow_dispatch:
 jobs:
   deploy:
@@ -15,7 +16,7 @@ jobs:
     - name: 📩 Deploy to custom domain
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: https://greenvisionmedia.com  
+        server: greenvisionmedia.com  
         username: gvm@$greenvisionmedia.com
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: greenvisionmedia.com/public_html/
