@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (entry.isIntersecting) {
                     toggle(contact);
                     toggle(formBox);
+                    observer.disconnect;
                 }
             });
         },

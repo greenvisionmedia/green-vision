@@ -774,6 +774,17 @@ figcaption {
     .header_content-icon {
         margin-top: -14rem;
     }
+}
+
+@media screen and (max-width: 895px) {
+    .section_problem {
+        margin-bottom: 69vh;
+    }
+
+    .chart_component {
+        transform: translate(0, 60vh);
+        width: 170%;
+    }
 
     .acronym-component {
         display: none;
@@ -786,15 +797,11 @@ figcaption {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     h3 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .padding-large {
