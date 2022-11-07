@@ -197,7 +197,7 @@ textarea.is-text-area {
     position: relative;
     z-index: 3;
     height: 5rem;
-    padding: 10%;
+    padding: 13%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1201,11 +1201,11 @@ input.button {
 
 @media screen and (max-width: 895px) {
     .section_problem {
-        margin-bottom: 69rem;
+        margin-bottom: 37rem;
     }
 
     .chart_component {
-        transform: translate(0, 69rem);
+        transform: translate(0, 33rem);
         width: 170%;
     }
 }
@@ -1269,6 +1269,14 @@ input.button {
     .header_content-subtitle {
         font-size: 1.25rem;
         margin-bottom: 5rem;
+    }
+
+    .solution_icon-row {
+        grid-template-columns: 11ch 5.5rem 1fr;
+    }
+
+    .solution_icon-row {
+        max-width: 75%;
     }
 }
 
