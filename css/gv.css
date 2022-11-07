@@ -125,9 +125,6 @@ blockquote {
 
 .form_input.is-text-area {
     min-height: 8rem;
-    display: flex;
-    align-items: top;
-    text-overflow: wrap;
 }
 
 .container-large {
