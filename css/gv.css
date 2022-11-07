@@ -1149,10 +1149,12 @@ section a {
 }
 
 #form-box.on {
+    display: flex;
     animation-play-state: running;
 }
 
 #form-box {
+    display: none;
     animation: 1.5s ease 0.25s both paused acid-box;
     will-change: transform;
 }
