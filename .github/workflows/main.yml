@@ -31,6 +31,6 @@ jobs:
         server: greenvision.media 
         username: gvm@greenvision.media
         password: ${{secrets.FTP_PASSWORD}}
-        server-dir: greenvisionmedia.com/public_html/
+        server-dir: greenvision.media/public_html/
         protocol: ftps
 
