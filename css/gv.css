@@ -10,8 +10,8 @@ body {
 
 h1 {
     max-width: 69ch;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     font-family: Bookmania, sans-serif;
     font-size: 5rem;
     line-height: 1.1;
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     max-width: 11ch;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-family: Bookmania, sans-serif;
     font-size: 4rem;
     line-height: 1.2;
@@ -28,36 +28,10 @@ h2 {
 }
 
 h3 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    font-family: Bookmania, sans-serif;
-    font-size: 3rem;
-}
-
-h4 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-family: Bookmania, sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.4;
-    font-weight: 700;
-}
-
-h5 {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    font-family: Bookmania, sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    font-weight: 700;
-}
-
-h6 {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 700;
+    font-size: 3rem;
 }
 
 p {
@@ -113,78 +87,6 @@ figure {
 figcaption {
     margin-top: 0.25rem;
     text-align: center;
-}
-
-.utility-page_component {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    max-height: 100%;
-    max-width: 100%;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.utility-page_form-block {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 20rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    text-align: center;
-}
-
-.utility-page_form {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-}
-
-.utility-page_image {
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .padding-large {
@@ -794,6 +696,26 @@ figcaption {
     font-size: 2rem;
 }
 
+#ADA {
+    grid-area: 9 / 12 / 11 / 14;
+}
+
+#SEO {
+    grid-area: 13 / 7 / 15 / 10;
+}
+
+#CWV {
+    grid-area: 10 / 3 / 12 / 5;
+}
+
+#CDN {
+    grid-area: 4 / 9 / 6 / 11;
+}
+
+#UX {
+    grid-area: 9 / 11 / 11 / 13;
+}
+
 .text-block {
     color: #476651;
     font-size: 1.5rem;
@@ -973,6 +895,8 @@ body {
 .container-large {
     margin-right: auto !important;
     margin-left: auto !important;
+    position: relative;
+    z-index: 5;
 }
 
 .margin-top {
@@ -1179,16 +1103,16 @@ section a {
 
 /* Acronym graphic */
 #seo.acronym_tile:after {
-    content: 'Search engine optimization strategies like keyword optimization give your site higher search rankings, and requires fewer wasted server requests.' !important;
+    content: 'Search engine optimization strategies like keyword optimization give your site higher search rankings, and require fewer server requests.' !important;
 }
 #ux.acronym_tile:after {
     content: 'An intuitive user experience lets your customers navigate exactly where they want without wasting time or electricity.' !important;
 }
 #ada.acronym_tile:after {
-    content: 'Americans with Disabilities Act - ethical web design means no one has preferential access to the internet.' !important;
+    content: 'Americans with Disabilities Act - ethical web design means no one has preferential access to the Internet.' !important;
 }
 #cdn.acronym_tile:after {
-    content: 'Content Delivery Networks increase the speed of your site by storing files closer to the end user.' !important;
+    content: 'Content Delivery Networks increase the energy intensity of your site by storing files closer to the end user.' !important;
 }
 #cwv.acronym_tile:after {
     content: "Google's Core Web Vitals - key markers of website performance and quality." !important;
