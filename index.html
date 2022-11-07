@@ -9,7 +9,7 @@
         />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link href="css/normalize.css" rel="stylesheet" type="text/css" />
-        <link href="css/gv.css" rel="stylesheet" type="text/css" />
+        <link href="css/gv.min.css" rel="stylesheet" type="text/css" />
         <link
             href="images/favicon.png"
             rel="shortcut icon"
@@ -684,15 +684,16 @@
                                             for="message"
                                             class="form_label"
                                             >How can we help?</label
-                                        ><input
-                                            type="textarea"
+                                        ><textarea
+                                            type="text"
                                             class="form_input is-text-area"
                                             maxlength="256"
                                             name="message"
                                             placeholder=""
                                             id="message"
                                             required="true"
-                                        /><input
+                                        ></textarea
+                                        >/><input
                                             type="submit"
                                             value="Submit"
                                             class="button is-earth"
@@ -723,6 +724,6 @@
                 </div>
             </div>
         </div>
-        <script src="js/gv.js" defer></script>
+        <script src="js/gv.min.js" defer></script>
     </body>
 </html>

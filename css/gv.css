@@ -1,3 +1,10 @@
+:root {
+    --white: #f4f8e6;
+    --tree: #4d6a56;
+    --leaf: #79986b;
+    --sky: #b2bc7e;
+}
+
 body {
     padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -123,7 +130,7 @@ blockquote {
     background-color: transparent;
 }
 
-.form_input.is-text-area {
+textarea.is-text-area {
     min-height: 8rem;
 }
 
@@ -735,165 +742,6 @@ blockquote {
     margin-right: 1.3rem;
 }
 
-@media screen and (max-width: 991px) {
-    .padding-large {
-        padding: 2.5rem;
-    }
-
-    .padding-medium {
-        padding: 1.5rem;
-    }
-
-    .padding-bottom {
-        padding-top: 0rem;
-        padding-right: 0rem;
-        padding-left: 0rem;
-    }
-
-    .padding-section-medium {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-
-    .nav_text {
-        text-align: left;
-    }
-
-    .header_content-icon {
-        margin-top: -14rem;
-    }
-
-    .acronym-component {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 895px) {
-    .section_problem {
-        margin-bottom: 69vh;
-    }
-
-    .chart_component {
-        transform: translate(0, 60vh);
-        width: 170%;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    blockquote {
-        font-size: 2.5rem;
-        line-height: 1.4;
-    }
-
-    .padding-large {
-        padding: 1.5rem;
-    }
-
-    .padding-medium {
-        padding: 1.25rem;
-    }
-
-    .padding-bottom {
-        padding-top: 0rem;
-        padding-right: 0rem;
-        padding-left: 0rem;
-    }
-
-    .heading-style-h1 {
-        font-size: 2.5rem;
-    }
-
-    .padding-global {
-        padding-right: 1.25rem;
-        padding-left: 1.25rem;
-    }
-
-    .padding-section-medium {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .header_content-icon {
-        margin-top: -9.5rem;
-        margin-bottom: -6.6rem;
-    }
-
-    .header_content-wrapper {
-        padding-right: 1.35rem;
-        padding-left: 1.35rem;
-    }
-
-    .header_content-subtitle {
-        font-size: 1.25rem;
-    }
-}
-
-@media screen and (max-width: 666px) {
-    .contact_form-wrapper {
-        width: 88vw;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    h2 {
-        font-size: 3rem;
-    }
-
-    blockquote {
-        font-size: 2rem;
-        line-height: 1.4;
-        border: none;
-        margin: none;
-        padding: none;
-    }
-
-    .padding-bottom {
-        padding-top: 0rem;
-        padding-right: 0rem;
-        padding-left: 0rem;
-    }
-
-    .nav_text {
-        max-width: 7rem;
-        margin-right: -0.5rem;
-        font-size: 1.25rem;
-        line-height: 1.2;
-    }
-
-    .header_content-icon {
-        margin-top: -5rem;
-        margin-bottom: -4rem;
-    }
-}
-
-@font-face {
-    font-family: 'Bookmania';
-    src: url('../fonts/bookmania-bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Global Styles */
-:root {
-    --white: #f4f8e6;
-    --tree: #4d6a56;
-    --leaf: #79986b;
-    --sky: #b2bc7e;
-}
-
 /* Make text look crisper and more legible in all browsers */
 body {
     -webkit-font-smoothing: antialiased;
@@ -1314,4 +1162,159 @@ input.button {
     to {
         transform: rotate(360deg);
     }
+}
+
+@media screen and (max-width: 991px) {
+    .padding-large {
+        padding: 2.5rem;
+    }
+
+    .padding-medium {
+        padding: 1.5rem;
+    }
+
+    .padding-bottom {
+        padding-top: 0rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+
+    .padding-section-medium {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .nav_text {
+        text-align: left;
+    }
+
+    .header_content-icon {
+        margin-top: -14rem;
+    }
+
+    .acronym-component {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .section_problem {
+        margin-bottom: 69vh;
+    }
+
+    .chart_component {
+        transform: translate(0, 60vh);
+        width: 170%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    blockquote {
+        font-size: 2.5rem;
+        line-height: 1.4;
+    }
+
+    .padding-large {
+        padding: 1.5rem;
+    }
+
+    .padding-medium {
+        padding: 1.25rem;
+    }
+
+    .padding-bottom {
+        padding-top: 0rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+
+    .heading-style-h1 {
+        font-size: 2.5rem;
+    }
+
+    .padding-global {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+    .padding-section-medium {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .header_content-icon {
+        margin-top: -9.5rem;
+        margin-bottom: -6.6rem;
+    }
+
+    .header_content-wrapper {
+        padding-right: 1.35rem;
+        padding-left: 1.35rem;
+    }
+
+    .header_content-subtitle {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .contact_form-wrapper {
+        width: 88vw;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    blockquote {
+        font-size: 2rem;
+        line-height: 1.4;
+        border: none;
+        margin: none;
+        padding: none;
+    }
+
+    .padding-bottom {
+        padding-top: 0rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+
+    .nav_text {
+        max-width: 7rem;
+        margin-right: -0.5rem;
+        font-size: 1.25rem;
+        line-height: 1.2;
+    }
+
+    .header_content-icon {
+        margin-top: -5rem;
+        margin-bottom: -4rem;
+    }
+}
+
+@font-face {
+    font-family: 'Bookmania';
+    src: url('../fonts/bookmania-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
