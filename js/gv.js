@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     let contact = get('contact'),
-        formBox = get('formBox');
+        formBox = get('form-box');
 
     // Contact appear
     new IntersectionObserver(
