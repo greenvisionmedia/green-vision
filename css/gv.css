@@ -696,23 +696,23 @@ figcaption {
     font-size: 2rem;
 }
 
-#ADA {
+#ada {
     grid-area: 9 / 12 / 11 / 14;
 }
 
-#SEO {
+#seo {
     grid-area: 13 / 7 / 15 / 10;
 }
 
-#CWV {
+#cwv {
     grid-area: 10 / 3 / 12 / 5;
 }
 
-#CDN {
+#cdn {
     grid-area: 4 / 9 / 6 / 11;
 }
 
-#UX {
+#ux {
     grid-area: 9 / 11 / 11 / 13;
 }
 
