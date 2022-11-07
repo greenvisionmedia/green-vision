@@ -1,3 +1,4 @@
+#Action to deploy directly to a domain
 name: Deploy
 on:
     workflow_dispatch:
@@ -16,7 +17,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: greenvisionmedia.com  
-        username: gvm@$greenvisionmedia.com
+        username: gvm@greenvisionmedia.com
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: greenvisionmedia.com/public_html/
         protocol: ftps
