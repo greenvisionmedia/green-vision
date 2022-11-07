@@ -1203,7 +1203,7 @@ input.button {
     }
 
     .chart_component {
-        transform: translate(0, 60vh);
+        transform: translate(0, 69rem);
         width: 170%;
     }
 }
@@ -1266,6 +1266,7 @@ input.button {
 
     .header_content-subtitle {
         font-size: 1.25rem;
+        margin-bottom: 5rem;
     }
 }
 
