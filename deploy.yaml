@@ -1,0 +1,14 @@
+name: Deploy
+  on:
+    push:
+    workflow_dispatch:
+  jobs:
+    deploy:
+      uses: greenvisionmedia/actions/.github/workflows/deploy.yml@main
+      with:
+        staging: false
+        domain: greenvisionmedia.com
+        sitecode: gv
+      secrets:
+        test: ${{secrets.TEST_PASSWORD}} 
+        ftp: ${{secrets.FTP_PASSWORD}}`
