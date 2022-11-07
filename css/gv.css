@@ -263,6 +263,8 @@ figcaption {
     font-family: Bookmania, sans-serif;
     color: #f4f8e6;
     font-size: 1.5rem;
+    align-self: center;
+    padding-bottom: 0.65rem;
 }
 
 .header_image {
@@ -697,23 +699,23 @@ figcaption {
 }
 
 #ada {
-    grid-area: 9 / 12 / 11 / 14;
+    grid-area: 10 / 12 / 12 / 14;
 }
 
 #seo {
-    grid-area: 13 / 7 / 15 / 10;
+    grid-area: 14 / 7 / 17 / 10;
 }
 
 #cwv {
-    grid-area: 10 / 3 / 12 / 5;
+    grid-area: 11 / 3 / 13 / 5;
 }
 
 #cdn {
-    grid-area: 4 / 9 / 6 / 11;
+    grid-area: 5 / 9 / 7 / 11;
 }
 
 #ux {
-    grid-area: 9 / 11 / 11 / 13;
+    grid-area: 6 / 4 / 9 / 7;
 }
 
 .text-block {
@@ -768,8 +770,6 @@ figcaption {
 
     .nav_text {
         text-align: left;
-        align-self: center;
-        padding-bottom: 0.5rem;
     }
 
     .header_content-icon {
