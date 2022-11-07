@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         },
         {
-            rootMargin: '5rem',
+            rootMargin: '-5rem',
         }
     ).observe(contact);
 
