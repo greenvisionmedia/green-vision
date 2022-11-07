@@ -1201,7 +1201,7 @@ input.button {
 
 @media screen and (max-width: 895px) {
     .section_problem {
-        margin-bottom: 69vh;
+        margin-bottom: 69rem;
     }
 
     .chart_component {
