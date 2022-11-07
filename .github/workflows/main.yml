@@ -13,11 +13,10 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
 
     - name: 📩 Deploy to custom domain
-      if: ${{inputs.staging == false}}
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: https://greenvisionmedia.com  
         username: gvm@$greenvisionmedia.com
-        password: ${{secrets.ftp}}
+        password: ${{secrets.FTP_PASSWORD}}
         server-dir: greenvisionmedia.com/public_html/
         protocol: ftps
