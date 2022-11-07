@@ -843,6 +843,12 @@ blockquote {
     }
 }
 
+@media screen and (max-width: 666px) {
+    .contact_form-wrapper {
+        width: 88vw;
+    }
+}
+
 @media screen and (max-width: 479px) {
     h2 {
         font-size: 3rem;
@@ -851,6 +857,9 @@ blockquote {
     blockquote {
         font-size: 2rem;
         line-height: 1.4;
+        border: none;
+        margin: none;
+        padding: none;
     }
 
     .padding-bottom {
@@ -1124,7 +1133,7 @@ section a {
     content: 'Americans with Disabilities Act - ethical web design means no one has preferential access to the Internet.' !important;
 }
 #cdn.acronym_tile:after {
-    content: 'Content Delivery Networks increase the energy intensity of your site by storing files closer to the end user.' !important;
+    content: 'Content Delivery Networks decrease the energy intensity of your site by storing files closer to the end user.' !important;
 }
 #cwv.acronym_tile:after {
     content: "Google's Core Web Vitals - key markers of website performance and quality." !important;
