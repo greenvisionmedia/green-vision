@@ -467,6 +467,7 @@ blockquote {
     position: relative;
     background-color: #352227;
     color: #f4f8e6;
+    padding-bottom: 5rem;
 }
 
 .contact_content-wrapper {
@@ -569,7 +570,7 @@ blockquote {
 
 .contact_wrapper {
     position: relative;
-    height: 100vh;
+    height: 108vh;
 }
 
 .header_wrapper {
@@ -699,11 +700,11 @@ blockquote {
 }
 
 #cdn {
-    grid-area: 6 / 9 / 8 / 11;
+    grid-area: 7 / 10 / 9 / 12;
 }
 
 #ux {
-    grid-area: 7 / 4 / 10 / 7;
+    grid-area: 6 / 4 / 9 / 7;
 }
 
 .text-block {
@@ -764,6 +765,10 @@ blockquote {
     .header_content-icon {
         margin-top: -14rem;
     }
+
+    .acronym-component {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 895px) {
@@ -774,10 +779,6 @@ blockquote {
     .chart_component {
         transform: translate(0, 60vh);
         width: 170%;
-    }
-
-    .acronym-component {
-        display: none;
     }
 }
 
@@ -843,6 +844,15 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    blockquote {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
     .padding-bottom {
         padding-top: 0rem;
         padding-right: 0rem;
