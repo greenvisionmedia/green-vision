@@ -533,10 +533,6 @@ figcaption {
 }
 
 .contact_form-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     width: 35rem;
     height: 35rem;
     padding: 2rem 2rem 1rem;
@@ -701,11 +697,11 @@ figcaption {
 }
 
 #ada {
-    grid-area: 10 / 12 / 12 / 14;
+    grid-area: 11 / 12 / 13 / 14;
 }
 
 #seo {
-    grid-area: 14 / 7 / 17 / 10;
+    grid-area: 15 / 7 / 18 / 10;
 }
 
 #cwv {
@@ -713,11 +709,11 @@ figcaption {
 }
 
 #cdn {
-    grid-area: 5 / 9 / 7 / 11;
+    grid-area: 6 / 9 / 8 / 11;
 }
 
 #ux {
-    grid-area: 6 / 4 / 9 / 7;
+    grid-area: 7 / 4 / 10 / 7;
 }
 
 .text-block {
@@ -1159,6 +1155,37 @@ section a {
     will-change: transform;
 }
 
+#succ-box,
+#fail-box {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: Bookmania;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--leaf);
+}
+
+#fail-box.on,
+#succ-box.on {
+    display: flex;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: stretch;
+}
+
+input.button {
+    appearance: none;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-self: center;
+    margin: auto 0 0 0;
+}
+
 @keyframes text {
     from {
         opacity: 0;
@@ -1269,35 +1296,4 @@ section a {
     to {
         transform: rotate(360deg);
     }
-}
-
-/* Interrim */
-
-#succ-box,
-#fail-box {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    font-family: Bookmania;
-    font-size: 3rem;
-    text-align: center;
-    color: var(--leaf);
-}
-
-#fail-box.on,
-#succ-box.on {
-    display: flex;
-}
-
-#form {
-    display: flex;
-    flex-direction: column;
-}
-
-input.button {
-    appearance: none;
-    border: none;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    align-self: center;
-    margin: auto 0 0 0;
 }
