@@ -1289,7 +1289,15 @@ input.button {
         width: 88vw;
     }
     .section_testimonials {
-        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    blockquote {
+        font-size: 2rem;
+        line-height: 1.4;
+        border: none;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -1300,14 +1308,6 @@ input.button {
 
     h2 {
         font-size: 3rem;
-    }
-
-    blockquote {
-        font-size: 2rem;
-        line-height: 1.4;
-        border: none;
-        margin: none;
-        padding: none;
     }
 
     .padding-bottom {
@@ -1346,11 +1346,11 @@ input.button {
         width: 88vw;
     }
     .section_problem {
-        margin-bottom: 57rem;
+        margin-bottom: 60rem;
     }
 
     .chart_component {
-        transform: translate(0, 52rem);
+        transform: translate(0, 56rem);
         width: 170%;
     }
 }
