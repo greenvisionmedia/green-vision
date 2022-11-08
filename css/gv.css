@@ -1288,6 +1288,9 @@ input.button {
     .contact_form-wrapper {
         width: 88vw;
     }
+    .section_testimonials {
+        margin-bottom: 5rem;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1332,6 +1335,9 @@ input.button {
     .chart_component {
         transform: translate(0, 40rem);
         width: 170%;
+    }
+    .section_testimonials {
+        margin-bottom: 10rem;
     }
 }
 
