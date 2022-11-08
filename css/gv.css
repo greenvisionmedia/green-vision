@@ -336,7 +336,6 @@ textarea.is-text-area {
 
 .section_problem {
     position: relative;
-    margin-bottom: 5rem;
     background-color: #352227;
     color: #f4f8e6;
 }
@@ -472,7 +471,6 @@ textarea.is-text-area {
     position: relative;
     background-color: #352227;
     color: #f4f8e6;
-    padding-bottom: 5rem;
 }
 
 .contact_content-wrapper {
@@ -533,6 +531,7 @@ textarea.is-text-area {
     width: 35rem;
     height: 35rem;
     padding: 2rem 2rem 1rem;
+    margin-bottom: 10rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
