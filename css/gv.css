@@ -493,7 +493,6 @@ textarea.is-text-area {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -584,7 +583,7 @@ textarea.is-text-area {
 
 .contact_wrapper {
     position: relative;
-    height: 108vh;
+    height: 144vh;
 }
 
 .header_wrapper {
