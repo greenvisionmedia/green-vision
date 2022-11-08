@@ -310,6 +310,7 @@ textarea.is-text-area {
     margin-bottom: 1.5rem;
     color: #f4f8e6;
     text-align: center;
+    text-shadow: 0 0 1rem #3522275d;
 }
 
 .header_content-wrapper {
@@ -374,7 +375,7 @@ textarea.is-text-area {
     color: #f4f8e6;
     font-size: 1.5rem;
     text-align: center;
-    text-shadow: 0 0 1rem #352227;
+    text-shadow: 0 0 1rem #3522277c;
 }
 
 .chart_component {
@@ -903,6 +904,7 @@ section a {
 .icon_layer-white {
     fill: var(--white);
     animation: 1.5s ease 0.25s both acid-icon_layer-white;
+    text-shadow: 0 0 1rem #3522273a;
 }
 
 .icon_layer-sky {
