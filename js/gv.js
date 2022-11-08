@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     let contact = get('contact'),
+        trigger = get('trigger'),
         formBox = get('form-box');
 
     // Contact appear
@@ -20,7 +21,33 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         },
         {
-            rootMargin: '200px',
+            rootMargin: '16px',
         }
-    ).observe(contact);
+    ).observe(trigger);
+
+    // BASIN
+
+    let form = get('form'),
+        success = get('succ-box'),
+        failure = get('fail-box');
+
+    form.onsubmit = function (event) {
+        event.preventDefault();
+
+        let formData = new FormData(form),
+            xhr = new XMLHttpRequest();
+
+        xhr.open('POST', form.action, true);
+        xhr.send(formData);
+        xhr.onload = function (e) {
+            if (xhr.status === 200) {
+                toggle(formBox);
+                toggle(success);
+            } else {
+                var response = JSON.parse(xhr.response);
+                toggle(formBox);
+                toggle(failure);
+            }
+        };
+    };
 });
