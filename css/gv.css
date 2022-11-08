@@ -1324,6 +1324,29 @@ input.button {
         margin-top: -5rem;
         margin-bottom: -4rem;
     }
+
+    .section_problem {
+        margin-bottom: 44rem;
+    }
+
+    .chart_component {
+        transform: translate(0, 40rem);
+        width: 170%;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .contact_form-wrapper {
+        width: 88vw;
+    }
+    .section_problem {
+        margin-bottom: 48rem;
+    }
+
+    .chart_component {
+        transform: translate(0, 44rem);
+        width: 170%;
+    }
 }
 
 @font-face {
