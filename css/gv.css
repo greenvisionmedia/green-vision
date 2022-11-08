@@ -500,6 +500,7 @@ textarea.is-text-area {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .contact_image-wrapper {
@@ -1334,7 +1335,7 @@ input.button {
 
     .chart_component {
         transform: translate(0, 40rem);
-        width: 170%;
+        width: 160%;
     }
     .section_testimonials {
         margin-bottom: 10rem;
@@ -1351,7 +1352,7 @@ input.button {
 
     .chart_component {
         transform: translate(0, 56rem);
-        width: 170%;
+        width: 150%;
     }
 }
 
