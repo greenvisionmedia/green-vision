@@ -5,6 +5,14 @@
     --sky: #b2bc7e;
 }
 
+@font-face {
+    font-family: 'Bookmania';
+    src: url('../fonts/bookmania-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -338,6 +346,7 @@ textarea.is-text-area {
     position: relative;
     background-color: #352227;
     color: #f4f8e6;
+    margin-bottom: 5rem;
 }
 
 .nav_background {
@@ -1350,12 +1359,4 @@ input.button {
         transform: translate(0, 56rem);
         width: 150%;
     }
-}
-
-@font-face {
-    font-family: 'Bookmania';
-    src: url('../fonts/bookmania-bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
 }
