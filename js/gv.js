@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         },
         {
-            rootMargin: '64px',
+            rootMargin: '16px',
         }
     ).observe(contact);
 
