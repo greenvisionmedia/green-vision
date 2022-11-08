@@ -1346,11 +1346,11 @@ input.button {
         width: 88vw;
     }
     .section_problem {
-        margin-bottom: 48rem;
+        margin-bottom: 57rem;
     }
 
     .chart_component {
-        transform: translate(0, 44rem);
+        transform: translate(0, 52rem);
         width: 170%;
     }
 }
