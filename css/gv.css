@@ -1337,9 +1337,6 @@ input.button {
         transform: translate(0, 40rem);
         width: 160%;
     }
-    .section_testimonials {
-        margin-bottom: 10rem;
-    }
 }
 
 @media screen and (max-width: 333px) {
