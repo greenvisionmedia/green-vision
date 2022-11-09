@@ -22,11 +22,11 @@ jobs:
         REMOTE_HOST: greenvisionmedia.net
         REMOTE_USER: u1887-ynfzoamngj75
         REMOTE_PORT: 18765
-        TARGET: gv.greenvisionmedia.net/public_html/
+        TARGET: ~/gv.greenvisionmedia.net/public_html/
 
         
     - name: 📩 Deploy to custom domain
-      if: false
+      if: true
       uses: easingthemes/ssh-deploy@v3.0.1
       with:
         SSH_PRIVATE_KEY: ${{secrets.SSH_KEY}}
