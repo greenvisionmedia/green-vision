@@ -15,7 +15,7 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
       
     - name: ✉️ Deploy to subdomain
-      if: true
+      if: false
       uses: easingthemes/ssh-deploy@v3.0.1
       with:
         SSH_PRIVATE_KEY: ${{secrets.TEST_KEY}}
