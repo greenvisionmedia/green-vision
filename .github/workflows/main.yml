@@ -21,7 +21,7 @@ jobs:
         target-server: greenvisionmedia.net
         remote-user: u1887-ynfzoamngj75
         private-ssh-key: ${{secrets.TEST_KEY}}
-        destination-path: ~/gv.greenvisionmedia.net/public_html/
+        destination-path: gv.greenvisionmedia.net/public_html/
         ssh-port: 18765
         
     - name: 📩 Deploy to custom domain
