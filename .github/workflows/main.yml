@@ -16,21 +16,18 @@ jobs:
       
     - name: ✉️ Deploy to subdomain
       if: false
-      uses: SamKirkland/FTP-Deploy-Action@4.3.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: greenvisionmedia.net
         username: gvm@greenvisionmedia.net
         password: ${{secrets.TEST_PASSWORD}}
         server-dir: gv.greenvisionmedia.net/public_html/
-        protocol: ftps
         
-    - name: 📩 Deploy to custom domain
+    - name: ✉️ Deploy to domain
       if: true
-      uses: SamKirkland/FTP-Deploy-Action@4.3.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: greenvision.media 
+        server: greenvision.media
         username: gvm@greenvision.media
         password: ${{secrets.FTP_PASSWORD}}
-        server-dir: greenvision.media/public_html/
-        protocol: ftps
-
+        server-dir: /public_html/
