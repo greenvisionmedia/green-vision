@@ -15,7 +15,7 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
       
     - name: ✉️ Deploy to subdomain
-      if: true
+      if: false
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvisionmedia.net
@@ -24,19 +24,10 @@ jobs:
         server-dir: gv.greenvisionmedia.net/public_html/
         
     - name: ✉️ Deploy to domain
-      if: false
+      if: true
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvision.media
         username: gvm@greenvision.media
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: greenvision.media/public_html/
-        
-    - name: ✉️ Deploy to redirect
-      if: true
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: greenvisionmedia.com
-        username: gvm@greenvisionmedia.com
-        password: ${{secrets.RDR_PASSWORD}}
-        server-dir: greenvisionmedia.com/public_html/
