@@ -15,16 +15,16 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
       
     - name: ✉️ Deploy to subdomain
-      if: true
+      if: false
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: greenvisionmedia.net
         username: gvm@greenvisionmedia.net
-        password: ${{secrets.FTP_PASSWORD}}
+        password: ${{secrets.TEST_PASSWORD}}
         server-dir: gv.greenvisionmedia.net/public_html/
         
     - name: ✉️ Deploy to domain
-      if: false
+      if: true
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: greenvision.media
