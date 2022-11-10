@@ -16,7 +16,7 @@ jobs:
       
     - name: ✉️ Deploy to subdomain
       if: false
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvisionmedia.net
         username: gvm@greenvisionmedia.net
@@ -25,7 +25,7 @@ jobs:
         
     - name: ✉️ Deploy to domain
       if: true
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvision.media
         username: gvm@greenvision.media
