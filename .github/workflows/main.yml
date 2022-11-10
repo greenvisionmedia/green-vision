@@ -1,7 +1,7 @@
 #Action to deploy directly to a domain
 name: Deploy
 on:
-    push:
+    #push:
     workflow_dispatch:
 jobs:
   deploy:
@@ -14,23 +14,11 @@ jobs:
     - name: 🗜️ Minify
       uses: nizarmah/auto-minify@v2.1
       
-    - name: ✉️ Deploy to subdomain
+    - name: ✉️ Deploy to domain
       if: false
-      uses: easingthemes/ssh-deploy@v3.0.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        SSH_PRIVATE_KEY: ${{secrets.TEST_KEY}}
-        REMOTE_HOST: greenvisionmedia.net
-        REMOTE_USER: u1887-ynfzoamngj75
-        REMOTE_PORT: 18765
-        TARGET: ~/gv.greenvisionmedia.net/public_html/
-
-        
-    - name: 📩 Deploy to custom domain
-      if: true
-      uses: easingthemes/ssh-deploy@v3.0.1
-      with:
-        SSH_PRIVATE_KEY: ${{secrets.SSH_KEY}}
-        REMOTE_HOST: greenvision.media
-        REMOTE_USER: u1258-ihb3f9yhod3w
-        REMOTE_PORT: 18765
-        TARGET: greenvision.media/public_html/
+        server: greenvisionmedia.net
+        username: gvm@greenvisionmedia.net
+        password: ${{secrets.FTP_PASSWORD}}
+        server-dir: gv.greenvisionmedia.net/public_html/
