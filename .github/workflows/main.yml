@@ -31,3 +31,12 @@ jobs:
         username: gvm@greenvision.media
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: greenvision.media/public_html/
+        
+    - name: ✉️ Deploy to redirect
+      if: true
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: greenvisionmedia.com
+        username: gvm@greenvisionmedia.com
+        password: ${{secrets.RDR_PASSWORD}}
+        server-dir: greenvisionmedia.com/public_html/
