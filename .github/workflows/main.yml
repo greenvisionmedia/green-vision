@@ -1,7 +1,7 @@
 #Action to deploy directly to a domain
 name: Deploy
 on:
-    #push:
+    push:
     workflow_dispatch:
 jobs:
   deploy:
@@ -14,11 +14,20 @@ jobs:
     - name: 🗜️ Minify
       uses: nizarmah/auto-minify@v2.1
       
-    - name: ✉️ Deploy to domain
-      if: false
+    - name: ✉️ Deploy to subdomain
+      if: true
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: greenvisionmedia.net
         username: gvm@greenvisionmedia.net
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: gv.greenvisionmedia.net/public_html/
+        
+    - name: ✉️ Deploy to domain
+      if: false
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server: greenvision.media
+        username: gvm@greenvision.media
+        password: ${{secrets.FTP_PASSWORD}}
+        server-dir: /public_html/
