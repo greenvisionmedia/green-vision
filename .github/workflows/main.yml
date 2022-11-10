@@ -15,7 +15,7 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
       
     - name: ✉️ Deploy to subdomain
-      if: false
+      if: true
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvisionmedia.net
@@ -24,7 +24,7 @@ jobs:
         server-dir: gv.greenvisionmedia.net/public_html/
         
     - name: ✉️ Deploy to domain
-      if: true
+      if: false
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: greenvision.media
