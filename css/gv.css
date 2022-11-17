@@ -1461,7 +1461,6 @@ h5 {
     color: var(--sky);
 }
 
-.gv-documentation th:not(th:last-of-type),
-.gv-documentation td:not(td:last-of-type) {
-    border-right: 1px, solid, var(--tree);
+.gv-documentation tr {
+    border-top: 1px, solid, var(--tree);
 }
