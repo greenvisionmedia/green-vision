@@ -1366,13 +1366,24 @@ input.button {
 
 .gv-documentation {
     background: var(--white);
-    padding: 0 20vw;
+    padding: 5rem 20vw;
     color: var(--earth);
 }
 
 .gv-documentation h1, h2, h3, h4, h5 {
     color: var(--leaf);
-    font-size: 0.88ch;
+}
+
+.gv-documentation h2 {
+    font-size: 3rem;
+}
+
+.gv-documentation h3 {
+    font-size: 2.25rem;
+}
+
+.gv-documentation h4 {
+    font-size: 1.75rem;
 }
 
 .gv-documentation blockquote {
@@ -1380,7 +1391,7 @@ input.button {
     border-width: 0.125rem;
     border-color: var(--leaf);
     color: var(--leaf);
-    padding: 0;
+    padding: 0 0 0 1rem;
     font-weight: bold;
 }
 
@@ -1389,5 +1400,5 @@ input.button {
     background: var(--tree);
     border-radius: 2px;
     padding: 0.2ch;
-    font-size: 0.88ch;
+    font-size: 1rem;
 }
