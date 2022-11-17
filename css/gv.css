@@ -1394,6 +1394,7 @@ h5 {
     font-size: 1.75rem;
     margin-top: 3rem;
     margin-right: 0.5rem;
+    scroll-margin-top: 2rem;
 }
 
 .gv-documentation blockquote {
@@ -1414,15 +1415,15 @@ ol {
 }
 
 .gv-documentation code {
-    color: var(--sky);
-    background: var(--tree);
+    color: var(--tree);
+    background: var(--sky);
     border-radius: 2px;
     padding: 0.2ch;
     font-size: 1rem;
 }
 
 .gv-documentation pre {
-    background: var(--tree);
+    background: var(--sky);
     border-radius: 2px;
     padding: 1ch;
     font-size: 1rem;
@@ -1438,15 +1439,20 @@ ol {
     text-align: left;
     padding: 0.25rem;
     border-radius: 2px;
-}
-
-.gv-documentation thead {
-    background: var(--sky);
-    color: var(--tree);
+    border-collapse: collapse;
 }
 
 .gv-documentation td {
-    margin-right: 0.5rem;
-    border-color: var(--leaf);
+    border-color: var(--tree);
     border-width: 1px;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.gv-documentation thead {
+    color: var(--sky);
+    background-color: var(--tree);
+}
+
+.gv-documentation thead {
+    color: var(--earth);
 }
