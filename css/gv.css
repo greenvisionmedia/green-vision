@@ -1399,6 +1399,10 @@ input.button {
     font-weight: bold;
 }
 
+.gv-documentation ul, ol {
+    font-size: 1.25rem;
+}
+
 .gv-documentation code {
     color: var(--sky);
     background: var(--tree);
