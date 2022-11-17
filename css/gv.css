@@ -1443,6 +1443,7 @@ ol {
     padding: 0.25rem;
     border-radius: 2px;
     border-collapse: collapse;
+    overflow: hidden;
 }
 
 .gv-documentation td,  
@@ -1451,4 +1452,14 @@ ol {
     border-width: 1px;
     border-style: solid;
     padding: 1rem 2rem 1rem 1rem;
+}
+
+.gv-documentation th {
+    background-color: var(--tree);
+    color: var(--sky);
+    border: none;
+}
+
+.gv-documentation th:not(th:last-child) {
+    border-right: 1px solid var(--tree) !important;
 }
