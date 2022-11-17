@@ -1407,12 +1407,12 @@ h5 {
     color: var(--leaf);
     padding: 0 0 0 1rem;
     margin: 2rem 0;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .gv-documentation ul,
 ol {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 
 .gv-documentation code {
@@ -1448,18 +1448,17 @@ ol {
 
 .gv-documentation td,  
 .gv-documentation th {
-    border-color: var(--tree);
-    border-width: 1px;
-    border-style: solid;
     padding: 1rem 2rem 1rem 1rem;
 }
 
 .gv-documentation th {
     background-color: var(--tree);
     color: var(--sky);
-    border: none;
 }
 
-.gv-documentation th:not(th:last-child) {
-    border-right: 1px solid var(--tree) !important;
+.gv-documentation th:not(th:last-of-type),
+.gv-documentation td:not(td:last-of-type) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--tree);
 }
