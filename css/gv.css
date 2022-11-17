@@ -1396,10 +1396,12 @@ h5 {
     margin-right: 0.5rem;
     scroll-margin-top: 2rem;
     text-decoration: none;
+    margin-bottom: 0.75rem;
 }
 
 .gv-documentation h5 {
     font-size: 1.4rem;
+    margin-bottom: 0;
 }
 
 .gv-documentation blockquote {
