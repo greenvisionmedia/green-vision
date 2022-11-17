@@ -1395,6 +1395,7 @@ h5 {
     margin-top: 3rem;
     margin-right: 0.5rem;
     scroll-margin-top: 2rem;
+    text-decoration: none;
 }
 
 .gv-documentation blockquote {
@@ -1436,23 +1437,18 @@ ol {
 }
 
 .gv-documentation table {
+    background: var(--sky);
+    color: var(--tree);
     text-align: left;
     padding: 0.25rem;
     border-radius: 2px;
     border-collapse: collapse;
 }
 
-.gv-documentation td {
+.gv-documentation td,  
+.gv-documentation th {
     border-color: var(--tree);
     border-width: 1px;
+    border-style: solid;
     padding: 1rem 2rem 1rem 1rem;
-}
-
-.gv-documentation thead {
-    color: var(--sky);
-    background-color: var(--tree);
-}
-
-.gv-documentation thead {
-    color: var(--earth);
 }
