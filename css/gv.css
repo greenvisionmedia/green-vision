@@ -1372,6 +1372,7 @@ input.button {
 
 .gv-documentation h1, h2, h3, h4, h5 {
     color: var(--leaf);
+    max-width: 20ch;
 }
 
 .gv-documentation h2 {
@@ -1409,4 +1410,12 @@ input.button {
     border-radius: 2px;
     padding: 0.2ch;
     font-size: 1rem;
+}
+
+.gv-documentation pre {
+    background: var(--tree);
+    border-radius: 2px;
+    padding: 1ch;
+    font-size: 1rem;
+    padding-right: 5rem;
 }
