@@ -1385,7 +1385,7 @@ input.button {
     margin-top: 4rem;
 }
 
-.gv-documentation h4 {
+.gv-documentation h4, .gv-documentation h4 code {
     font-size: 1.75rem;
     margin-top: 3rem;
 }
