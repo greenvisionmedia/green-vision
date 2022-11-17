@@ -1380,18 +1380,18 @@ h5 {
 }
 
 .gv-documentation h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 5rem;
 }
 
 .gv-documentation h3 {
-    font-size: 2.25rem;
+    font-size: 3rem;
     margin-top: 4rem;
 }
 
 .gv-documentation h4,
 .gv-documentation h4 code {
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-top: 3rem;
     margin-right: 0.5rem;
     scroll-margin-top: 2rem;
@@ -1400,7 +1400,7 @@ h5 {
 }
 
 .gv-documentation h5 {
-    font-size: 1.4rem;
+    font-size: 1.75rem;
     margin-bottom: 0;
 }
 
@@ -1442,6 +1442,7 @@ h5 {
 }
 
 .gv-documentation table {
+    margin-top: .88rem;
     background: var(--sky);
     color: var(--tree);
     text-align: left;
