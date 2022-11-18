@@ -1469,7 +1469,9 @@ h5 {
 }
 
 .gv-documentation tr {
-    border-top: 1px, solid, var(--tree);
+    border-top: solid; 
+    border-color: var(--tree);
+    border-width: 1px;
 }
 
 .gv-documentation main {
@@ -1510,4 +1512,8 @@ h5 {
 .gv-current {
     background: var(--tree);
     color: var(--sky) !important;
+}
+
+.gv-current {
+    transition: none;
 }
