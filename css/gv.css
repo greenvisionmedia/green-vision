@@ -1479,7 +1479,8 @@ h5 {
     position: absolute;
     height: 100vh;
     left: 0;
-    background: var(--earth);
+    padding-top: 5rem;
+    background: var(--sky);
     width: 22vw;
     max-width: 15rem;
     font-family: Bookmania;
@@ -1492,13 +1493,14 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: left;
-    color: var(--white);
+    color: var(--tree);
     height: 5rem;
     padding: 0 1.5rem;
+    text-decoration: none;
 }
 
 .gv-current {
-    color: var(--tree);
-    color: var(--sky);
+    background: var(--earth);
+    color: var(--white);
 }
 
