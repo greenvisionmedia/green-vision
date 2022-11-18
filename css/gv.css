@@ -1474,7 +1474,7 @@ h5 {
     color: var(--sky);
 }
 
-.gv-documentation tr {
+.gv-documentation tr:not(tr:first-of-type) {
     border-top: solid; 
     border-color: var(--tree);
     border-width: 1px;
@@ -1518,6 +1518,11 @@ h5 {
 .gv-current {
     background: var(--tree);
     color: var(--sky) !important;
+}
+
+.gv-documentation kbd {
+    background: var(--tree);
+    color: var(--sky);
 }
 
 .gv-current {
