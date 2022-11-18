@@ -1477,9 +1477,8 @@ h5 {
 
 .gv-documentation nav {
     position: absolute;
-    height: 100vh;
+    height: 100000000000000000000px;
     left: 0;
-    padding-top: 5rem;
     background: var(--sky);
     width: 22vw;
     max-width: 15rem;
@@ -1499,8 +1498,13 @@ h5 {
     text-decoration: none;
 }
 
-.gv-current {
+.gv-documentation a:first-of-type {
     background: var(--earth);
     color: var(--white);
+}
+
+.w-current {
+    background: var(--tree);
+    color: var(--sky);
 }
 
