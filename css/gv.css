@@ -1509,5 +1509,5 @@ h5 {
 .gv-documentation nav a:hover,
 .gv-current {
     background: var(--tree);
-    color: var(--sky);
+    color: var(--sky) !important;
 }
