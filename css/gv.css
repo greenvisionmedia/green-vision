@@ -1397,7 +1397,7 @@ h5 {
 .gv-documentation h4,
 .gv-documentation h4 code {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-right: 0.5rem;
     scroll-margin-top: 2rem;
     text-decoration: none;
@@ -1445,6 +1445,12 @@ h5 {
 .gv-documentation a {
     color: var(--tree);
     font-weight: 600;
+}
+
+.gv-documentation table,
+.gv-documentation pre {
+    width: 100%;
+    margin-bottom: 4rem;
 }
 
 .gv-documentation table {
@@ -1508,7 +1514,7 @@ h5 {
     color: var(--white);
 }
 
-.gv-documentation nav a:hover,
+.gv-documentation nav a:hover:not(nav a:first-of-type),
 .gv-current {
     background: var(--tree);
     color: var(--sky) !important;
