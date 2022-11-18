@@ -1405,6 +1405,7 @@ h5 {
 }
 
 .gv-documentation h5 {
+    font-family: Bookmania;
     font-size: 1.75rem;
     margin-bottom: 0;
 }
@@ -1428,14 +1429,14 @@ h5 {
 .gv-documentation code {
     color: var(--tree);
     background: var(--sky);
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 0.2ch;
     font-size: 1rem;
 }
 
 .gv-documentation pre {
     background: var(--sky);
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 1ch;
     font-size: 1rem;
     padding-right: 5rem;
@@ -1476,7 +1477,7 @@ h5 {
 }
 
 .gv-documentation nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -1506,7 +1507,7 @@ h5 {
 }
 
 .gv-documentation nav a:hover,
-.w-current {
+.gv-current {
     background: var(--tree);
     color: var(--sky);
 }
