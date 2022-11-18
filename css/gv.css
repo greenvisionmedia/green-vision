@@ -1447,7 +1447,7 @@ h5 {
 }
 
 .gv-documentation table {
-    margin-top: .88rem;
+    margin-top: 0.88rem;
     background: var(--sky);
     color: var(--tree);
     text-align: left;
@@ -1457,7 +1457,7 @@ h5 {
     overflow: hidden;
 }
 
-.gv-documentation td,  
+.gv-documentation td,
 .gv-documentation th {
     padding: 1rem 2rem 1rem 1rem;
 }
@@ -1477,16 +1477,17 @@ h5 {
 
 .gv-documentation nav {
     position: absolute;
-    height: 100000000000000000000px;
+    top: 0;
+    bottom: 0;
     left: 0;
     background: var(--sky);
-    width: 22vw;
+    width: 24vw;
     max-width: 15rem;
     font-family: Bookmania;
     font-size: 1.33rem;
     display: flex;
     flex-direction: column;
-} 
+}
 
 .gv-documentation nav a {
     display: flex;
@@ -1496,15 +1497,16 @@ h5 {
     height: 5rem;
     padding: 0 1.5rem;
     text-decoration: none;
+    transition: 300ms;
 }
 
-.gv-documentation a:first-of-type {
+.gv-documentation nav a:first-of-type {
     background: var(--earth);
     color: var(--white);
 }
 
+.gv-documentation nav a:hover,
 .w-current {
     background: var(--tree);
     color: var(--sky);
 }
-
