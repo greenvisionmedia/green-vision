@@ -1515,7 +1515,7 @@ h5 {
 }
 
 .gv-documentation nav a:hover:not(nav a:first-of-type),
-.gv-current {
+.gv-current:not(nav a:first-of-type) {
     background: var(--tree);
     color: var(--sky) !important;
 }
@@ -1529,10 +1529,6 @@ h5 {
     fill: currentColor;
     width: 48px;
     margin-right: 6px;
-}
-
-.gv-current {
-    transition: none;
 }
 
 @media screen and (max-width: 500px) {
