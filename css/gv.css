@@ -1410,13 +1410,17 @@ h5 {
     margin-bottom: 0;
 }
 
+.gv-documentation img {
+    border-radius: 3px;
+}
+
 .gv-documentation blockquote {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
         sans-serif;
     border-width: 1px;
-    border-color: var(--leaf);
-    color: var(--leaf);
+    border-color: var(--tree);
+    color: var(--tree);
     padding: 0 0 0 1rem;
     margin: 2rem 0;
     font-weight: 600;
@@ -1426,7 +1430,8 @@ h5 {
     font-size: 1.125rem;
 }
 
-.gv-documentation code {
+.gv-documentation code,
+.gv-documentation kbd {
     color: var(--tree);
     background: var(--sky);
     border-radius: 3px;
@@ -1440,6 +1445,11 @@ h5 {
     padding: 1ch;
     font-size: 1rem;
     padding-right: 5rem;
+}
+
+.gv-documentation kbd {
+    background: var(--tree);
+    color: var(--sky);
 }
 
 .gv-documentation a {
@@ -1518,11 +1528,6 @@ h5 {
 .gv-current:not(nav a:first-of-type) {
     background: var(--tree);
     color: var(--sky) !important;
-}
-
-.gv-documentation kbd {
-    background: var(--tree);
-    color: var(--sky);
 }
 
 .gv-documentation nav svg {
