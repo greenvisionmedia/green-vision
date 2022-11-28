@@ -267,9 +267,10 @@ textarea.is-text-area {
     transition: color 300ms ease;
     font-family: Bookmania, sans-serif;
     color: #f4f8e6;
-    font-size: 1.5rem;
+    font-size: 2rem;
     align-self: center;
-    padding-bottom: 0.65rem;
+    padding-bottom: 0.5em;
+    padding-left: .15em;
 }
 
 .header_image {
