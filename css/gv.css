@@ -1398,7 +1398,6 @@ h5 {
 .gv-documentation h4 code {
     font-size: 2rem;
     margin-top: 2rem;
-    margin-right: 0.5rem;
     scroll-margin-top: 2rem;
     text-decoration: none;
     margin-bottom: 0.75rem;
@@ -1431,9 +1430,8 @@ h5 {
 }
 
 .gv-documentation code,
-.gv-documentation kbd {
-    color: var(--tree);
-    background: var(--sky);
+.gv-documentation kbd
+.gv-documentation pre {
     border-radius: 3px;
     padding: 0.2ch;
     font-size: 1rem;
@@ -1441,10 +1439,13 @@ h5 {
 
 .gv-documentation pre {
     background: var(--sky);
-    border-radius: 3px;
     padding: 1ch;
-    font-size: 1rem;
     padding-right: 5rem;
+}
+
+.gv-documentation kbd {
+color: var(--tree);
+background: var(--sky);
 }
 
 .gv-documentation kbd {
