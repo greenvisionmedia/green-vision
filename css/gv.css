@@ -168,7 +168,7 @@ textarea.is-text-area {
 .container-medium {
     z-index: 1;
     width: 100%;
-    max-width: 69rem;
+    max-width: 64rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -1261,8 +1261,8 @@ input.button {
     }
 
     .padding-global {
-        padding-right: 1.25rem;
-        padding-left: 1.25rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .padding-section-medium {
