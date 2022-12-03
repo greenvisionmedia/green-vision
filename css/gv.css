@@ -656,7 +656,7 @@ textarea.is-text-area {
     position: absolute;
     left: auto;
     top: 0%;
-    right: 0%;
+    right: -3rem;
     bottom: 0%;
     display: -ms-grid;
     display: grid;
