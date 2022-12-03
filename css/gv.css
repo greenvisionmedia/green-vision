@@ -168,7 +168,7 @@ textarea.is-text-area {
 .container-medium {
     z-index: 1;
     width: 100%;
-    max-width: 64rem;
+    max-width: 72rem;
     margin-right: auto;
     margin-left: auto;
 }
