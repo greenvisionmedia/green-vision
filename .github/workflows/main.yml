@@ -9,7 +9,6 @@ jobs:
   deploy:
     uses: greenvisionmedia/gvm-pipeline/.github/workflows/main.yml@c9ba3b39900a28996e0d48b459fc1ada8c8e1c72
     with:
-      tag: $GITHUB_BASE_REF
       staging: ${{inputs.staging}}
       sitecode: ${{inputs.sitecode}}
       domain: ${{inputs.domain}}
