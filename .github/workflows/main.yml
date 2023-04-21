@@ -7,7 +7,7 @@ on:
         - opened
 jobs:
   deploy:
-    uses: greenvisionmedia/gvm-pipeline/.github/workflows/deploy.yml@main
+    uses: greenvisionmedia/gvm-pipeline/.github/workflows/deploy.yml@4fa4a57
     with:
       tag: $GITHUB_BASE_REF
     secrets: inherit
