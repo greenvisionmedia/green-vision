@@ -1,10 +1,11 @@
 #Action to deploy directly to a domain and call re-usable deploy
 name: Deploy
 on:
-    pull_request_target:
-      types:
-        - edited
-        - opened
+  pull_request_target:
+    types:
+      - edited
+      - opened
+
 jobs:
   deploy:
     uses: greenvisionmedia/gvm-pipeline/.github/workflows/main.yml@c9ba3b39900a28996e0d48b459fc1ada8c8e1c72
