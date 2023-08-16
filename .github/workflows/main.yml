@@ -1,10 +1,9 @@
 #Action to deploy directly to a domain and call re-usable deploy
 name: Deploy
 on:
-  pull_request_target:
-    types:
-      - edited
-      - opened
+  push:
+    branches:
+      - main
 env:
   SITE: $GITHUB_HEAD_REF
    
